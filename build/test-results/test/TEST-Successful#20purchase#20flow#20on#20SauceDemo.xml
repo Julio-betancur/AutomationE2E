@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Successful purchase flow on SauceDemo" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-30T01:16:32" hostname="PSOFKA01198" time="32.834">
+  <properties/>
+  <testcase name=": Successful purchase flow" classname="Successful purchase flow on SauceDemo" time="32.834"/>
+  <system-out><![CDATA[
+@happypath
+Scenario Outline: : Successful purchase flow                                    ?[90m# src/test/resources/features/successful_purchase_flow.feature:25?[0m
+20:16:33.131 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///C:/Users/julio.betancur/Documents/Proyectos_Prueba/AutomationE2E/src/test/resources/features/successful_purchase_flow.feature
+20:16:33.472 [Test worker] INFO  -- 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+: Successful purchase flow(successful-purchase-flow-on-saucedemo;:-successful-purchase-flow)
+--------------------------------------------------------------------------------
+20:16:34.566 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - performAs
+20:16:34.697 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} opens the #targetPageName
+20:16:35.123 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider -- Starting Chrome driver instance with capabilities:
+20:16:35.131 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider -- Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [test-type, no-sandbox, ignore-certificate-errors, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, disable-dev-shm-usage, disable-extensions, disable-web-security, disable-translate, disable-logging, auto-open-devtools-for-tabs..., --incognito, start-maximized, test-type, no-sandbox, ignore-certificate-errors, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, disable-dev-shm-usage, disable-extensions, disable-web-security, disable-translate, disable-logging, auto-open-devtools-for-tabs..., --incognito, start-maximized, remote-allow-origins=*], extensions: []}}
+20:16:41.114 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Opening darkroom
+20:16:41.129 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Darkroom processing line starting up
+20:16:41.469 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\618030c9f1ec35308afd1eaa4df50a3a4c0ce96a46ede57cd97e000dc8aa26bb.png
+20:16:41.475 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} opens the #targetPageName
+20:16:41.580 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Textfield to enter the username
+20:16:41.968 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\618030c9f1ec35308afd1eaa4df50a3a4c0ce96a46ede57cd97e000dc8aa26bb.png
+20:16:41.969 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: performAs
+  ?[32mGiven ?[0m?[32mthe user is on the SauceDemo login page?[0m                                 ?[90m# com.saucedemo.stepdefinitions.SuccessfulPurchaseStepDefinition.theUserIsOnTheSauceDemoLoginPage()?[0m
+20:16:42.705 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - performAs
+20:16:42.793 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} enters #theTextAsAString into #target
+20:16:42.947 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Textfield to enter the username
+20:16:43.456 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\c3aa381e7e5fd5036649f63e4841ebb3b2b220803593e458aef5609d12edac78.png
+20:16:43.456 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} enters #theTextAsAString into #target
+20:16:43.463 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} enters #theTextAsAString into #target
+20:16:43.505 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Textfield to enter the password
+20:16:43.991 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\853a87026cb1ebf86f69482a6c00aa926edbcf44f9bcff8942b0f635adeaac47.png
+20:16:43.992 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} enters #theTextAsAString into #target
+20:16:44.002 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #target
+20:16:44.038 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to login
+20:16:44.733 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\6ab95b04aabbc0edc3eb832bd970f3fe58699070c1590fb092520e0d14dfa60d.png
+20:16:44.734 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #target
+20:16:44.815 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Label with the inventory page title
+20:16:45.283 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\6ab95b04aabbc0edc3eb832bd970f3fe58699070c1590fb092520e0d14dfa60d.png
+20:16:45.284 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: performAs
+  ?[32mGiven ?[0m?[32mthe user logs in with valid credentials?[0m                                 ?[90m# com.saucedemo.stepdefinitions.SuccessfulPurchaseStepDefinition.theUserLogsInWithValidCredentials(com.saucedemo.model.SuccessfulPurchaseDataTable)?[0m
+    | username      | password     |
+    | standard_user | secret_sauce |
+20:16:45.505 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\6ab95b04aabbc0edc3eb832bd970f3fe58699070c1590fb092520e0d14dfa60d.png
+20:16:45.541 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - performAs
+20:16:45.658 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #target
+20:16:45.689 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to open a product
+20:16:46.298 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\1fab6c4e3bda9513ca2f9227ce542b9a78de1b57f05939bed51009561ee93143.png
+20:16:46.299 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #target
+20:16:46.390 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Text with the product name
+20:16:46.620 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} should see #description
+20:16:46.661 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Text with the product name
+20:16:46.979 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\1fab6c4e3bda9513ca2f9227ce542b9a78de1b57f05939bed51009561ee93143.png
+20:16:46.980 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} should see #description
+20:16:47.031 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Text with the product price
+20:16:47.189 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #target
+20:16:47.219 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to add the product to the cart
+20:16:47.964 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\8cbbe68c32dae3552e487e2b8c1b4be57c9a7e86229d760769d45c7c22f590fa.png
+20:16:47.966 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #target
+20:16:48.069 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to add the product to the cart
+20:16:50.173 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #target
+20:16:50.207 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to return to the products page
+20:16:50.875 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\84173190e144bedffa4183c2e994f0cf0ab93845faeeeaabcf6986e58e40e13e.png
+20:16:50.876 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #target
+20:16:50.876 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-12087582970490427974
+20:16:50.877 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\84173190e144bedffa4183c2e994f0cf0ab93845faeeeaabcf6986e58e40e13e.png
+20:16:50.994 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Label with the inventory page title
+20:16:51.262 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #target
+20:16:51.295 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to open a product
+20:16:51.937 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\311efd0f9e537b7c492f1cf9914ac04e62db6229ae981b097de25d1d875c789e.png
+20:16:51.938 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #target
+20:16:51.938 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-15486553533850304425
+20:16:51.939 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\311efd0f9e537b7c492f1cf9914ac04e62db6229ae981b097de25d1d875c789e.png
+20:16:52.039 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Text with the product name
+20:16:52.258 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} should see #description
+20:16:52.296 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Text with the product name
+20:16:52.637 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\311efd0f9e537b7c492f1cf9914ac04e62db6229ae981b097de25d1d875c789e.png
+20:16:52.638 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} should see #description
+20:16:52.706 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Text with the product price
+20:16:52.852 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #target
+20:16:52.877 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to add the product to the cart
+20:16:53.444 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\c12687e4f85a8c0b13ff190643dbce9f27fa0bef2f244807226acad585142ba6.png
+20:16:53.445 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #target
+20:16:53.446 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-13193224710964515932
+20:16:53.446 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\c12687e4f85a8c0b13ff190643dbce9f27fa0bef2f244807226acad585142ba6.png
+20:16:53.537 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to add the product to the cart
+20:16:55.609 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #target
+20:16:55.630 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to return to the products page
+20:16:56.171 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\d24bd305be9ef029c9a4c33b9948d46bf60977aec9bed33f8d4e5ab85907fed3.png
+20:16:56.173 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #target
+20:16:56.173 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-17521134392462212471
+20:16:56.174 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\d24bd305be9ef029c9a4c33b9948d46bf60977aec9bed33f8d4e5ab85907fed3.png
+20:16:56.245 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Label with the inventory page title
+20:16:56.622 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\d24bd305be9ef029c9a4c33b9948d46bf60977aec9bed33f8d4e5ab85907fed3.png
+20:16:56.622 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: performAs
+  ?[32mWhen ?[0m?[32mthe user adds two products to the cart?[0m                                   ?[90m# com.saucedemo.stepdefinitions.SuccessfulPurchaseStepDefinition.theUserAddsTwoProductsToTheCart(com.saucedemo.model.SuccessfulPurchaseDataTable)?[0m
+    | products                                  |
+    | Sauce Labs Backpack,Sauce Labs Bike Light |
+20:16:56.834 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\d24bd305be9ef029c9a4c33b9948d46bf60977aec9bed33f8d4e5ab85907fed3.png
+20:16:56.868 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - performAs
+20:16:56.887 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #target
+20:16:56.920 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to open the cart
+20:16:57.454 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\912e5f9f86ba4362b36a0b7cef67ea4d21406d55a94219e6d5bbc3ab57872f12.png
+20:16:57.454 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #target
+20:16:57.454 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-5683055941263021427
+20:16:57.455 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\912e5f9f86ba4362b36a0b7cef67ea4d21406d55a94219e6d5bbc3ab57872f12.png
+20:16:57.533 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Item names
+20:16:57.887 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Item names
+20:16:58.117 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} should see #description
+20:16:58.296 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\912e5f9f86ba4362b36a0b7cef67ea4d21406d55a94219e6d5bbc3ab57872f12.png
+20:16:58.296 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} should see #description
+20:16:58.512 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\912e5f9f86ba4362b36a0b7cef67ea4d21406d55a94219e6d5bbc3ab57872f12.png
+20:16:58.512 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: performAs
+  ?[32mAnd ?[0m?[32mthe user checks the cart?[0m                                                  ?[90m# com.saucedemo.stepdefinitions.SuccessfulPurchaseStepDefinition.theUserChecksTheCart(com.saucedemo.model.SuccessfulPurchaseDataTable)?[0m
+    | products                                  |
+    | Sauce Labs Backpack,Sauce Labs Bike Light |
+20:16:58.719 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\912e5f9f86ba4362b36a0b7cef67ea4d21406d55a94219e6d5bbc3ab57872f12.png
+20:16:58.761 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - performAs
+20:16:58.830 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #target
+20:16:58.880 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to checkout the purchase
+20:16:59.551 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\bea10d6a92973fe0d8acdde0076f9f285ff2f25fc91bec94aef3c489ffc66b1e.png
+20:16:59.554 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-5367692264943355474
+20:16:59.554 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\bea10d6a92973fe0d8acdde0076f9f285ff2f25fc91bec94aef3c489ffc66b1e.png
+20:16:59.554 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #target
+20:16:59.648 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Textfield to enter the first name
+20:16:59.841 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} enters #theTextAsAString into #target
+20:16:59.909 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Textfield to enter the first name
+20:17:00.457 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\86a40d70747f0402a81d89add30485ce117c92848ec06ad0ebdffdfab29c5e72.png
+20:17:00.458 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} enters #theTextAsAString into #target
+20:17:00.458 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-10235588116672583552
+20:17:00.458 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\86a40d70747f0402a81d89add30485ce117c92848ec06ad0ebdffdfab29c5e72.png
+20:17:00.465 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} enters #theTextAsAString into #target
+20:17:00.521 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Textfield to enter the last name
+20:17:00.962 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\f13ac9391e442ce21bc5b2ed8e6e2b1cedf0ce737c0707920c72c23d50ae9606.png
+20:17:00.963 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} enters #theTextAsAString into #target
+20:17:00.963 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-8152480142403376254
+20:17:00.964 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\f13ac9391e442ce21bc5b2ed8e6e2b1cedf0ce737c0707920c72c23d50ae9606.png
+20:17:00.972 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} enters #theTextAsAString into #target
+20:17:01.023 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Textfield to enter the zip code
+20:17:01.448 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\df8ec33c8236120b618f1f9eaaf8ca096e76170536c315f7075bbe5acd822186.png
+20:17:01.448 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} enters #theTextAsAString into #target
+20:17:01.449 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-12149731751006396772
+20:17:01.449 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\df8ec33c8236120b618f1f9eaaf8ca096e76170536c315f7075bbe5acd822186.png
+20:17:01.456 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #target
+20:17:01.479 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to continue to overview page
+20:17:02.000 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\a382adb230c4438f99d98dad2c5bc76c05818d62a1081064842cb4742cc496a4.png
+20:17:02.001 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #target
+20:17:02.001 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-12581493469831911802
+20:17:02.002 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\a382adb230c4438f99d98dad2c5bc76c05818d62a1081064842cb4742cc496a4.png
+20:17:02.085 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Text with the item total without taxes
+20:17:02.305 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Text with the item total without taxes
+20:17:02.475 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} should see #description
+20:17:02.643 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\a382adb230c4438f99d98dad2c5bc76c05818d62a1081064842cb4742cc496a4.png
+20:17:02.643 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} should see #description
+20:17:02.682 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #target
+20:17:02.709 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Button to finish the purchase
+20:17:03.232 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\ec7970aff5d354adbe9e14cd7445c540d079862fa4c50f1c6e8a7ff1179ab2fb.png
+20:17:03.233 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #target
+20:17:03.234 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-389960884154511675
+20:17:03.234 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\ec7970aff5d354adbe9e14cd7445c540d079862fa4c50f1c6e8a7ff1179ab2fb.png
+20:17:03.421 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\ec7970aff5d354adbe9e14cd7445c540d079862fa4c50f1c6e8a7ff1179ab2fb.png
+20:17:03.422 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: performAs
+  ?[32mAnd ?[0m?[32mthe user completes the purchase?[0m                                           ?[90m# com.saucedemo.stepdefinitions.SuccessfulPurchaseStepDefinition.theUserCompletesThePurchase(com.saucedemo.model.SuccessfulPurchaseDataTable)?[0m
+    | firstName | lastName | zipCode | products                                  |
+    | Julio     | Betancur | 5546    | Sauce Labs Backpack,Sauce Labs Bike Light |
+20:17:03.614 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\ec7970aff5d354adbe9e14cd7445c540d079862fa4c50f1c6e8a7ff1179ab2fb.png
+20:17:03.643 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - performAs
+20:17:03.655 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} should see #description
+20:17:03.678 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Text with the final message that confirm the purchase
+20:17:03.965 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\ec7970aff5d354adbe9e14cd7445c540d079862fa4c50f1c6e8a7ff1179ab2fb.png
+20:17:03.966 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} should see #description
+20:17:04.150 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\ec7970aff5d354adbe9e14cd7445c540d079862fa4c50f1c6e8a7ff1179ab2fb.png
+20:17:04.151 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: performAs
+  ?[32mThen ?[0m?[32mthe user should see the confirmation message ?[0m?[32m?[1m"Thank you for your order!"?[0m ?[90m# com.saucedemo.stepdefinitions.SuccessfulPurchaseStepDefinition.theUserShouldSeeTheConfirmationMessage(java.lang.String)?[0m
+20:17:04.327 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Users\julio.betancur\Documents\Proyectos_Prueba\AutomationE2E\target\site\serenity\ec7970aff5d354adbe9e14cd7445c540d079862fa4c50f1c6e8a7ff1179ab2fb.png
+20:17:05.732 [Test worker] INFO  -- 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+: Successful purchase flow
+----------------------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[may. 29, 2024 8:16:40 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 125
+may. 29, 2024 8:16:40 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 125.0.6422.113. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>

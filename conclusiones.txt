@@ -1,0 +1,16 @@
+# Conclusiones
+
+## Resumen del Proyecto
+Este proyecto de automatización End-to-End (E2E) para la página web SauceDemo demostró la capacidad de SerenityBDD con el patrón Screenplay para manejar escenarios de prueba complejos y realistas. Las pruebas cubrieron el flujo completo de autenticación, adición de productos al carrito, visualización del carrito, y finalización de una compra.
+
+## Resultados Clave
+1. **Eficiencia y Fiabilidad**:
+   - La automatización fue capaz de ejecutar los casos de prueba de manera eficiente y precisa.
+   - El uso de SerenityBDD facilitó la generación de reportes detallados y comprensibles.
+
+2. **Facilidad de Mantenimiento**:
+   - El patrón Screenplay permitió una clara separación de responsabilidades, mejorando la mantenibilidad del código.
+   - La configuración y las dependencias gestionadas a través de Gradle simplificaron la gestión del proyecto.
+
+3. **Cobertura de Pruebas**:
+   - Se cubrieron todos los pasos críticos del flujo de compra en SauceDemo, asegurando una alta cobertura de prueba y detección de posibles errores.
