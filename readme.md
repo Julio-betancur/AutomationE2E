@@ -23,13 +23,10 @@ Este proyecto utiliza el lenguaje de programación **Java** y el marco de automa
 Las principales dependencias del proyecto están especificadas en el archivo `build.gradle`, incluyendo:
 
 - Serenity Core
-- Serenity JUnit5
 - Serenity Cucumber
 - Serenity Screenplay y Screenplay WebDriver
 - JUnit5
-- AssertJ
 - Lombok
-- Logback
 
 ### Configuración de SerenityBDD
 La configuración de la URL y otras propiedades de la prueba están alojadas en el archivo `serenity.conf`.
@@ -41,7 +38,7 @@ Para ejecutar las pruebas, sigue estos pasos:
 2. Abre el proyecto en IntelliJ IDEA.
 3. Asegúrate de que JDK 17 o superior esté configurado en tu entorno de desarrollo.
 4. Asegúrate de tener el navegador Google Chrome instalado.
-5. Ejecuta el siguiente comando en la terminal de IntelliJ para iniciar las pruebas:
+5. Ejecuta el siguiente comando en la terminal gradle de IntelliJ para iniciar las pruebas:
 
     ```sh
     gradle clean test aggregate
